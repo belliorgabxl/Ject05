@@ -2,5 +2,6 @@
     width: 95%;
     height: 15rem;
     z-index: 1;
-    border: 5px solid gray;
+    box-shadow: 0 2px 15px 5px #C8C8C8;
+    margin:10px 0 10px 0;
 }

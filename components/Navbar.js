@@ -28,7 +28,7 @@ export default function Navbar(){
                         <Image className="search_img" src="/search.png" 
                     width={35} height={35} alt='logo'></Image>
                     <input type="search" className={styles.search} name =""
-                    placeholder="  Search Room" id=""></input>
+                    placeholder="  i'm searching for..." id=""></input>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@ export default function Navbar(){
                         <Image className="search_img" src="/search.png" 
                     width={35} height={35} alt='logo'></Image>
                     <input type="search" className={styles.search} name =""
-                    placeholder="  Search Room" id=""></input>
+                    placeholder="  i'm searching for..." id=""></input>
                     </div>
                 </div>
 
