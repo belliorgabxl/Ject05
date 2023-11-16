@@ -53,7 +53,7 @@
 }
 .content{
   margin:0px 0 10px 0;
-  border:1px solid #000033;
+  border:1px solid #C8C8C8;
   height: 300px;
   width: 1200px;
 }
@@ -63,7 +63,7 @@
 
   /*======================*/
 .content{
-    box-shadow: 0px 5px 15px black;
+    box-shadow: 0px 5px 15px #C8C8C8;
     display: grid;
     grid-template-columns: 400px 600px;
     grid-template-rows: 300px;
@@ -72,7 +72,7 @@
 }
 .container_listone{
   display: grid;
-  border: 10px solid #000033;
+  border: 10px solid #C8C8C8;
   text-align: center;
   padding: 10px;
   font-weight: bold;
@@ -82,7 +82,7 @@
 }
 .container_listtwo{
   display: grid;
-  border: 10px solid #000033;
+  border: 10px solid #C8C8C8;
   text-align: center;
   padding: 10px;
   font-weight: bold;
@@ -91,7 +91,7 @@
   grid-template-rows: 40px 180px 40px;
 }
 .container_title{
-    border: 5px solid #000033;
+    border: 5px solid #C8C8C8;
     background-color: white;
     display: grid;
     place-items: center;
@@ -99,20 +99,20 @@
 }
 .container_picture{
     background-color: white;
-    border: 2px solid #000033;
+    border: 2px solid #C8C8C8;
 }
 .container_price{
     display: grid;
     place-items: center;
     background-color: white;
-    border: 5px solid #000033;
+    border: 5px solid #C8C8C8;
     margin: 2px 2px 2px 2px;
 }
 .container_content{
     display: grid;
     place-items: center;
     background-color: white;
-    border: 5px solid #000033;
+    border: 5px solid #C8C8C8;
     margin: 2px 2px 2px 2px;
 }
 .container_another{
@@ -120,12 +120,12 @@
     grid-template-columns: 120px 430px;
 }
 .container_type{
-    border: 5px solid #000033;
+    border: 5px solid #C8C8C8;
     background-color: white;
     margin: 2px 2px 2px 2px;
 }
 .container_feature{
-    border: 5px solid #000033;
+    border: 5px solid #C8C8C8;
     background-color: white;
 }
 

@@ -45,7 +45,7 @@ export default function Navbar(){
                 </div>
 
                 <div className={styles.menulist}>
-                    <Link href="/pages/Announce">Announce</Link>
+                    <Link href="/pages/Announce">Announcement</Link>
                 </div>
 
                 <div className={styles.menulist}>
@@ -106,7 +106,7 @@ export default function Navbar(){
                 </div>
 
                 <div className={styles.menulist}>
-                    <Link href="/pages/Announce">Announce</Link>
+                    <Link href="/pages/Announce">Announcement</Link>
                 </div>
 
                 <div className={styles.menulist}>
