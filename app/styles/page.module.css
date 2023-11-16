@@ -1,0 +1,23 @@
+
+.title{
+  display: grid;
+  place-items: center;
+  margin-top:150px;
+  text-align: center;
+}
+
+.btn{
+  text-align: center;
+}
+.head_text{
+  display: grid;place-items: center;
+  color: #000033;
+  border: 10px solid #000033;
+  font-size: 25px;
+  width: 1000px;
+  height: 120px;
+}
+.content{
+  font-size: 25px;
+  font-weight: 500;
+}
