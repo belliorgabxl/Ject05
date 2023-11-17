@@ -16,9 +16,11 @@ export default function Navbar(){
     return(
         <>
         <nav className={styles.navbar}>
-            <div className={styles.mainbar}>
+            <div className={styles.mainbar2}>
                 <div className={styles.mainbar_logo}>
-                <Link href="/mainpage"><Image src="/logo_house.png" width={60} height={55} alt='logo'></Image></Link>
+                <Link href="/mainpage" className={styles.insetting}>
+                    <Image src="/logo_house.png" width={60} height={55} alt='logo'></Image>
+                </Link>
                 </div>
                 <div className={styles.mainbar_title}>
                     <Link href="/mainpage">PorHub</Link>
@@ -31,17 +33,43 @@ export default function Navbar(){
                     placeholder="  i'm searching for..." id=""></input>
                     </div>
                 </div>
+                <div>
+                    blank
+                </div>
+                <div className={styles.plate_setting}>
+                    <div className={styles.setting}>
+                        <Image src="/setting.png" alt="logo" width={40} height={40}></Image>
+                    </div>
+                    <div className={styles.dropset}>
+                    <a href="#">Account</a>
+                            <a href="#">Security</a>
+                            <a href="#">Payment</a>
+                            <a href="#">Service</a>
+                            <a href ="#">Contact Us</a>
+                            <a href="#">HELP</a>
+                        </div>
+                </div>
 
                 <div className={styles.mainbar_logout}>
                     <button className={styles.logout_btn} onClick={Logout}>Logout</button>
                 </div>
             </div>
 
-            <div className={styles.menubar}>
-                <div  className={styles.burger}>
-                    <div className={styles.layer}></div>
-                    <div className={styles.layer}></div>
-                    <div className={styles.layer}></div>
+            <div className={styles.menubar} >
+                <div  className={styles.dropdown} >
+                        <div className={styles.drop}>
+                            <div className={styles.layer}></div>
+                            <div className={styles.layer}></div>
+                            <div className={styles.layer}></div>
+                        </div>
+                        <div class={styles.dropdown_menu}>
+                            <a href="#">PROMOTION</a>
+                            <a href="#">LOCATION</a>
+                            <a href="#">PRICE RANG</a>
+                            <a href="#">ANOTHER</a>
+                            <a href ="#">PAYMENT</a>
+                            <a href="#">HELP</a>
+                        </div>
                 </div>
 
                 <div className={styles.menulist}>
@@ -99,12 +127,22 @@ export default function Navbar(){
             </div>
 
             <div className={styles.menubar}>
-                <div  className={styles.burger}>
-                    <div className={styles.layer}></div>
-                    <div className={styles.layer}></div>
-                    <div className={styles.layer}></div>
-                </div>
-
+                    <div  className={styles.dropdown} >
+                        <div className={styles.drop}>
+                            <div className={styles.layer}></div>
+                            <div className={styles.layer}></div>
+                            <div className={styles.layer}></div>
+                        </div>
+                        <div class={styles.dropdown_menu}>
+                            <a href="#">PROMOTION</a>
+                            <a href="#">LOCATION</a>
+                            <a href="#">PRICE RANG</a>
+                            <a href="#">ANOTHER</a>
+                            <a href ="#">PAYMENT</a>
+                            <a href="#">HELP</a>
+                        </div>
+                    </div>
+               
                 <div className={styles.menulist}>
                     <Link href="/pages/Announce">Announcement</Link>
                 </div>
