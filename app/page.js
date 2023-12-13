@@ -15,6 +15,7 @@ export default function Home() {
           </div>
           <Map/>
           
+          
           <div className={styles.func_btn}>
             Fucntional Buntton
           </div>
@@ -29,6 +30,7 @@ export default function Home() {
           </div>
 
             <div className={styles.content}>
+                <Link href="/Room/room1">
                 <div className={styles.container_listone}>
                     <div className={styles.container_title} >title</div>
 
@@ -36,7 +38,9 @@ export default function Home() {
                     <Image src="/r1.jpeg" width={348} height={208}></Image>
                     </div>
                 </div>
+                </Link>
 
+                <Link href="/pages/RoomType">
                 <div className={styles.container_listtwo}>
                     <div className={styles.container_price}>price</div>
 
@@ -47,9 +51,11 @@ export default function Home() {
                         <div className={styles.container_feature}>feature</div>
                     </div>
                 </div>
+                </Link>
             </div>
 
             <div className={styles.content}>
+            <Link href="/pages/RoomType">
                 <div className={styles.container_listone}>
                     <div className={styles.container_title} >title</div>
 
@@ -57,7 +63,8 @@ export default function Home() {
                     <Image src="/r2.jpeg" width={348} height={208}></Image>
                     </div>
                 </div>
-
+            </Link>
+            <Link href="/pages/RoomType">
                 <div className={styles.container_listtwo}>
                     <div className={styles.container_price}>price</div>
 
@@ -68,6 +75,7 @@ export default function Home() {
                         <div className={styles.container_feature}>feature</div>
                     </div>
                 </div>
+            </Link>
             </div>
 
             <div className={styles.content}>

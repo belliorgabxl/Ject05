@@ -1,37 +1,198 @@
-.body{
+.body {
     display: grid;
     place-items: center;
     width: 100%;
     background-color:#E8E8E8;
+    
   }
-  
-  .container{
-    display: grid;
+  .container {
+    place-items: center;
     width: 93%;
     background-color: white;
     margin-top: 110px;
+    height: 1300px;
   }
-.content{
-    margin-top: 20px;
+  .container1{
+    display: grid;
+    grid-template-columns:  31% 31% 31% ;
     border: 1px solid black;
-    height: 200px;
-    display: grid;
-    grid-template-rows: 80px 120px ;
-    box-shadow: 0px 5px 10px gray;
-}
-.detailhead1{
-    display: grid;
-    grid-template-columns: 600px 470px 165px ;
-   
-}
-.detail1{
-    color:black;
-}
-.detailhead2{
-    display: grid;
-    grid-template-columns: 410px 410px 410px;
+    margin-top: 50px;
+    height: 300px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 20px;
+  }
+  .container11 {
+    transform: translate(130px,20px);
+    font-family: serif;
+    font-size: 20px;
+  }
+  .container12{
+    transform: translate(0px,0px);
     
-}
-.detail2{
-   color:black;
-}
+    
+  }
+  .box1 {
+    transform: translate(130px,40px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 200px;
+    width: 310px;
+    box-shadow: 5px 5px 5px;
+    
+  }
+  .smallbox1 {
+    transform: translate(0px,-60px);
+    background: rgb(205, 202, 202);
+    opacity: 0.6;
+    width: 200px;
+    height: 50px;
+   
+  }
+  .smallbox11 {
+    margin-left: 20px;
+  }
+  .smallbox12 {
+    margin-left: 20px;
+  }
+  .container13 {
+    transform: translate(0px,0px);
+  }
+  .box2 {
+    transform: translate(100px,60px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 200px;
+    width: 310px;
+    box-shadow: 5px 5px 5px;
+  }
+  
+  .container14 {
+    transform: translate(400px,15px);
+    
+  }
+  .container15 {
+    transform: translate(0px,0px);
+  }
+  .box3 {
+    transform: translate(70px,37px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 200px;
+    width: 310px;
+    box-shadow: 5px 5px 5px;
+  }
+  
+  .container2{
+    display: grid;
+    grid-template-columns:  31% 31% 31% ;
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 300px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 20px;
+    
+  }
+  .container21 {
+    transform: translate(130px,25px);
+    font-family: serif;
+    font-size: 20px;
+  }
+  .container22 {
+    transform: translate(0px,0px);
+  }
+  .box4 {
+    transform: translate(130px,40px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 200px;
+    width: 310px;
+    box-shadow: 5px 5px 5px;
+    
+  }
+  
+  .container23 {
+    transform: translate(0px,0px);
+  }
+  .box5 {
+    transform: translate(100px,60px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 200px;
+    width: 310px;
+    box-shadow: 5px 5px 5px;
+    
+  }
+  
+  .container24 {
+    transform: translate(400px,15px);
+  }
+  .container25 {
+    transform: translate(0px,0px);
+  }
+  .box6 {
+    transform: translate(70px,38px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 200px;
+    width: 310px;
+    box-shadow: 5px 5px 5px;
+    
+  }
+  
+  
+  .container3{
+    display: grid;
+    grid-template-columns:  50% 50% ;
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 500px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 20px;
+    
+  }
+  .container31 {
+    transform: translate(130px,25px);
+    font-family: serif;
+    font-size: 20px;
+  }
+  .container32 {
+    transform: translate(0px,0px);
+  }
+  .box7 {
+    transform: translate(150px,38px);
+    border: 0px solid rgb(205, 202, 202);
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 5px 5px;
+    
+  }
+  .container33 {
+    transform: translate(110px,80px);
+  }
+  .container331 {
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .container332 {
+    font-family: serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .container333 {
+    font-family: serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .container334 {
+    font-family: serif;
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    line-height: 30px;
+  }
+  .container335 {
+    font-family: serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .container336 {
+    font-family: serif;
+    font-size: 13px;
+    margin-left: 50px;
+    line-height: 30px;
+  }
